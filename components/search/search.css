@@ -1,0 +1,26 @@
+.searchBox {
+    width: 400px;
+    height: 40px;
+    background: #edf2ff;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 3px 15px;
+}
+
+.searchBox input {
+    background: transparent;
+    border: 0px;
+    outline: none;
+    padding-left: 3px;
+    font-size: 15px;
+    color: #292929;
+}
+
+.searchBox input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.searchBox svg {
+    font-size: 20px;
+    color: #292929;
+}

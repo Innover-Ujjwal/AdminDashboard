@@ -1,0 +1,114 @@
+/* General sidebar wrapper styles */
+.main .sidebarwrapper {
+    width: 20%;
+    flex: 0 0 20%;
+    transition: all 0.3s ease-in-out;
+  }
+  .main .sidebarwrapper.toggle {
+    width: 0;
+    flex: 0 0 0;
+  }
+  
+  /* Sidebar specific styles */
+  .main .sidebarwrapper .sidebar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  .main .sidebarwrapper.toggle .sidebar {
+    left: -100%;
+  }
+  
+  /* Sidebar content styles */
+  .main .sidebarwrapper .sidebar ul {
+    margin-bottom: 0;
+    padding: 10px 19px;
+  }
+  .main .sidebarwrapper .sidebar ul li button {
+    color: #000;
+    text-align: left;
+    justify-content: left;
+    border-radius: 10px !important;
+    padding: 12px 15px !important;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize !important;
+    font-weight: 600 !important;
+    font-family: "Open Sans", sans-serif !important;
+  }
+  .main .sidebarwrapper .sidebar ul li button .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .main .sidebarwrapper .sidebar ul li button .icon svg {
+    color: #000;
+    opacity: 0.8;
+    font-size: 22px;
+  }
+  .main .sidebarwrapper .sidebar ul li button .arrow {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  
+  /* Sidebar adjustments */
+  .main .sidebarwrapper .sidebar {
+    width: 350px;
+  }
+  
+  /* List styles */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Dropdown styles */
+  .dropdown-options {
+    padding-left: 25px;
+    border-radius: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-options a {
+    display: contents;
+    padding: 0;
+  }
+  .dropdown-options a:hover {
+    background-color: #edf2ff;
+  }
+  
+  /* Badge styles */
+  .badge {
+    background-color: blue;
+    color: white;
+    border-radius: 100%;
+    padding: 5px 10px;
+    margin-left: auto;
+    font-size: 12px;
+  }
+  
+  /* Content adjustments */
+  .main .content {
+    width: 80%;
+    flex: 0 0 80%;
+    transition: all 0.3s ease-in-out;
+  }
+  .main .content.toggle {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+  

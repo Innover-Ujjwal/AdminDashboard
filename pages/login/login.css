@@ -1,0 +1,152 @@
+
+* {
+    background-color: #fff; /* Setting a white background for all elements */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007bff;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.bg-custom {
+    background-color: #508bfc;
+}
+
+.custom-card {
+    border-radius: 1rem;
+    background: rgba(55, 8, 241, 0.8); /* Translucent background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-body h3 {
+    color: #333;
+}
+
+.form-outline .form-control {
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.form-outline .form-label {
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    color: #333;
+}
+
+.show-password {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.show-password input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.form-check-label {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.btn-lg {
+    font-size: 1rem;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+.btn-google {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+    color: white;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    border-color: #3b5998;
+    color: white;
+}
+
+hr.my-4 {
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 2rem;
+    }
+
+    .form-outline .form-control, .btn-primary {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+    }
+}
+
+/* Custom Login Page Styles */
+.loginsection {
+    width: 100%;
+    height: 100vh;
+    padding: 40px 35px;
+    background: #ffff; /* Corrected typo in background color */
+    position: relative;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+.full {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    width: 100% !important;
+}
+
+.loginbackground {
+    width: 100%;
+    height: 100%;
+    opacity: 0.08;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    pointer-events: none;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 2rem; /* Adjusted margin top from mt-4 to mt-2 */
+}
+
+.logo-container img {
+    width: 60px;
+}
+
+.logo-container h5 {
+    font-weight: bold;
+    margin-top: 0.5rem; /* Adjusted margin top from mt-4 to mt-2 */
+}
